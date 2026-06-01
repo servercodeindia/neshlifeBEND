@@ -22,6 +22,7 @@ const corsOptions = {
   origin: function (origin, callback) {
     const allowedOrigins = [
       'https://shipmart.online',
+      'https://www.shipmart.online',
       'http://localhost:5173',
       'http://localhost:5000'
     ];
